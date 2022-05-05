@@ -1,0 +1,8 @@
+Cite sources you consulted for this MP here:
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onload_html
+https://www.tutorialrepublic.com/faq/how-to-change-href-attribute-of-a-hyperlink-using-jquery.php
+https://stackoverflow.com/questions/30211605/javascript-html-collection-showing-as-0-length
+https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html
+https://www.netsparker.com/blog/web-security/xss-filter-evasion/
+https://stackoverflow.com/questions/6396101/pure-javascript-send-post-data-without-a-form

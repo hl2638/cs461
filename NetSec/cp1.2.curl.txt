@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK\r\n
+Server: nginx/1.17.8\r\n
+Date: Wed, 20 Apr 2022 22:32:27 GMT\r\n
+Content-Type: text/html\r\n
+Content-Length: 45\r\n
+Last-Modified: Tue, 11 Feb 2020 18:07:23 GMT\r\n
+Connection: keep-alive\r\n
+ETag: "5e42ed5b-2d"\r\n
+Cache-Control: no-cache\r\n
+Set-Cookie: session=5XJNWM48GV8WJ1SX\r\n
+Accept-Ranges: bytes\r\n
+\r\n
+[HTTP response 1/1]
+[Time since request: 0.000139980 seconds]
+[Request in frame: 28]
+[Request URI: http://www.bankofbailey.com/]
+File Data: 45 bytes
+<html><body><h1>It works!</h1></body></html>\n
+

